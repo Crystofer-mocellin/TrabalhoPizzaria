@@ -1,4 +1,4 @@
-package models;
+package trabalho.models;
 
 public class SaborPizza {
 

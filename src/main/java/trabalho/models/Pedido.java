@@ -1,4 +1,4 @@
-package models;
+package trabalho.models;
 import java.util.List;
 
 public class Pedido {
