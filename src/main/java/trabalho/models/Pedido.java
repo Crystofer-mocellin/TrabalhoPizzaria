@@ -4,7 +4,7 @@ import java.util.List;
 public class Pedido {
 
 
-    public class Pedido {
+    public class Pedido{
         private int id;
         private Cliente cliente;
         private List<SaborPizza> sabores;

@@ -6,7 +6,7 @@ import trabalho.utils.EntityManagerUtil;
 
 public class ClienteDAO {
 
-    EntityManager em = EntityManagerUtil.getEM();
+    EntityManager em = EntityManagerUtil.getEm();
 
     public void salvar(Cliente cliente) {
         try {

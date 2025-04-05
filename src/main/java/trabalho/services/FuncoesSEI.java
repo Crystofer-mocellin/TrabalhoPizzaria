@@ -15,4 +15,12 @@ public interface FuncoesSEI {
                       @WebParam(name = "telefone") String telefone,
                       @WebParam(name = "senha") String senha)
             throws UsuarioException;
+
+@WebMethod
+String salvarNovoUsuario(@WebParam(name = "nome") String nome,
+                         @WebParam(name = "cpf") Integer cpf,
+                         @WebParam(name = "email") String email,
+                         @WebParam(name = "telefone") String telefone,
+                         @WebParam(name = "senha") String senha)
+        throws UsuarioException;
 }
